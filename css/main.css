@@ -1,31 +1,45 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css family=Griffy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 body{
-    background-color:#f4f0e9; 
+
+    background-color:#f4f0e9;
+
     color: #333; 
+
+  
     font-family: 'Karla', sans-serif;
     margin: 0;
     border-radius: 20px;
+
+
 }
 
-.first-section {
+.first-section 
+{
+
     display: flex;
     flex-direction: column; 
     align-items: center;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 1); 
+
+
 }
 
 
-.logo {
+.logo
+ {
     display: flex;
     align-items: center; 
     gap: 1rem;
-    margin-bottom: 1rem;}
+    margin-bottom: 1rem;
+  }
 
-.logo-image {
+.logo-image
+ {
+
     display: block;
     max-width: 100%;
     height: auto;
@@ -44,19 +58,23 @@ body{
 
 .nav-container {
     display: flex;
-    gap: 1.8rem;
+    gap: 2rem;
 }
 
 .nav-link {
-    color: whitesmoke;
+
+    color: white;
     text-decoration: none;
+
+
     font-family: 'Lato', sans-serif;
     font-size: 1rem; 
-    transition: color 0.3s;
+    transition: color 1s;
 }
 
 .nav-link:hover {
-    color: #374151;
+
+    color: #3d495b;
 }
 
 
@@ -76,7 +94,7 @@ body{
    
 }
 
-.bg-image {
+.image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -90,7 +108,8 @@ body{
 
 
 
-.content-overlay {
+.content {
+
     position: relative;
     z-index: 1; 
     color: white; 
@@ -105,11 +124,13 @@ body{
 .first-heading {
     font-size: 1.5rem;
     font-weight: bold;
+
     margin-bottom: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
 .paragraph {
+
     font-size: 1rem;
     margin-bottom: 2rem;
     margin-bottom: 4rem;
@@ -122,19 +143,20 @@ body{
     text-decoration: none;
     font-size: 1rem;
     border: 2px solid #ccc;
-    transition: background-color 0.3s;
-    font-family: 'Karla', sans-serif;
+    transition: background-color 0.6s;
+    
     display: inline-block; 
-    margin-top: 1rem; 
+    margin-top: 2rem; 
 }
 
 
 .ex-button:hover {
-    background-color: goldenrod;
+    background-color: rgb(236, 177, 26);
 }
 
   
   .heading-section {
+
     max-width: 1200px;
     margin: 0 auto;
     padding: 1.5rem;
@@ -144,7 +166,7 @@ body{
  
 .title {
     font-size: 1.25rem;
-    color: #9f7332 ;
+    color: #a17430 ;
     margin-top: 1rem; 
     margin-bottom: 20px;
     transform: translateY(50px); 
@@ -154,7 +176,7 @@ body{
 @media (max-width: 768px) {
     .section-title {
         transform: translateY(5px); 
-        margin-top: 6rem; /
+        margin-top: 6rem; 
     }
 }
 
@@ -164,9 +186,11 @@ body{
 
     font-size: 1.6rem;
     font-weight: bold;
-    color: #333;
-    font-size: bold;
+    color: #363636;
+    
+
     margin-bottom: 0.5rem;
+
     margin-bottom: 40px;
   }
   
@@ -176,22 +200,24 @@ body{
   }
   
   .image-1 img {
+
+
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
   }
   
   
   .image-2 {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem; 
+    gap: 1.8rem; 
   }
   
   .sub-image img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   }
   
@@ -219,7 +245,7 @@ body{
    
     .image-2 {
       grid-template-columns: repeat(2, 1fr); 
-      gap: 1.5rem; 
+      gap: 2rem; 
     }
   }
   
@@ -228,14 +254,14 @@ body{
   
 .third-section {
     background-color: #f4f0e9; 
-    padding: 1.5rem; 
+    padding: 2rem; 
   }
   
   
   .tag {
     font-size: 2rem; 
     font-weight: 700; 
-    color: #333;
+    color: #3e3e3e;
     margin-bottom: 1rem;
     text-align: center; 
   }
@@ -244,7 +270,7 @@ body{
   .tag-2 {
     font-size: 1.5rem; 
     font-weight: 600; 
-    color: #333; 
+    color: #363535; 
     margin-bottom: 3rem; 
     text-align: center; 
   }
@@ -266,7 +292,7 @@ body{
   .feature-2 {
     
     text-align: center; 
-    transition: transform 0.3s ease-in-out;
+    transition: transform 1s;
   }
   
   .feature-2:hover {
@@ -278,8 +304,8 @@ body{
     margin-left: auto; 
     margin-right: auto; 
     margin-bottom: 0.5rem; 
-    width: 70px; 
-    height: 70px; 
+    width: 90px; 
+    height: 90px; 
   }
   
   
@@ -294,7 +320,7 @@ body{
   .feature-line{
     color: #666; 
     font-size: 1rem; 
-    line-height: 1.5;/
+    line-height: 1.5;
   }
   
  
@@ -306,7 +332,7 @@ body{
   
   .card-1 {
     position: relative;
-    background-color: #9f7332;
+    background-color: #90682c;
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -325,7 +351,7 @@ body{
     height: 100%;
     object-fit: cover;
     z-index: 0;
-    filter: brightness(0.4);
+    filter: brightness(0.6);
   }
   
   .menu-lines {
@@ -338,7 +364,7 @@ body{
     font-size: 1.25rem;
     color: goldenrod;
     margin-bottom: 0.5rem;
-    filter: brightness(0.7); 
+    filter: brightness(0.8); 
     
   }
   
@@ -366,18 +392,18 @@ body{
   }
   
   .location-1{
-    margin-bottom: 1opx;
+    margin-bottom: 10px;
   }
 
   .location-button {
-    background-color: #120b05;
+    background-color: #0a0603;
     color: white;
     border: 2px solid white; 
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     transition: background-color 0.3s;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
   
@@ -413,8 +439,8 @@ body{
 
 .about-4 {
     font-size: 1.5rem;
-    font-weight: 800;
-    font-size: bold;
+    font-weight: 820;
+    
     color: #000000;
     margin-bottom: 1.5rem;
 }
@@ -445,14 +471,14 @@ body{
 @media (max-width: 768px) {
     .forth-section {
         padding: 2rem 1rem; 
-        margin-bottom: -60;
+        margin-bottom: -70px;
     }
     
     .about-1 {
         width: 103%;
         height: 105%;
         overflow: hidden;
-        margin-left: -7px;
+        margin-left: -8px;
         
     
         margin-bottom: 2rem; 
@@ -465,7 +491,7 @@ body{
     }
 
     .about-4 {
-        font-size: bold;
+        
         font-weight: bold;
     }
 
@@ -521,7 +547,7 @@ body{
 .test-image {
     width: 100%; 
     height: auto; 
-    filter: brightness(0.7); }
+    filter: brightness(0.8); }
 
 
 .paragraph {
@@ -562,8 +588,8 @@ body{
 .test-item {
     position: relative;
     background-color: black;
-    margin-left: -7%;
-    margin-right: -7%;
+    margin-left: -8%;
+    margin-right: -8%;
 }
 
 
@@ -591,21 +617,17 @@ body{
     }
 
     .subheading-2 {
-        font-size: 1.6rem; 
+        font-size: 1.8rem; 
         margin-bottom: 20px; 
-        margin-left: 10; 
+        margin-left: 10px; 
     }
 
     .paragraph {
         font-size: 0.90rem; 
         bottom: 20px; 
-        margin-bottom: 18px;
+        margin-bottom: 20px;
 
-    .quote {
-        font-size: 1rem; 
-        bottom: 12px; 
-        margin-bottom: 3px; 
-    }
+   
 }
 
 
