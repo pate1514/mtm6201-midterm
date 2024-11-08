@@ -455,7 +455,7 @@ body{
 .learn-1 {
     display: inline-block;
     background-color: #120b05; 
-    color: white;
+    color: rgb(59, 57, 57);
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: bold;
